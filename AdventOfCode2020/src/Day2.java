@@ -1,5 +1,3 @@
-import static java.lang.Integer.parseInt;
-
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
@@ -8,7 +6,7 @@ import java.util.ArrayList;
 
 public class Day2 {
 
-	public static ArrayList<Password> passwdList = new ArrayList();
+	public static ArrayList<Password> passwdList = new ArrayList<Password>();
 
 	public static void main(String[] args) {
 		String linea;
